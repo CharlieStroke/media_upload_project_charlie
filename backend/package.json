@@ -1,0 +1,36 @@
+{
+  "name": "cloud_project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieStroke/cloud_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlieStroke/cloud_project/issues"
+  },
+  "homepage": "https://github.com/CharlieStroke/cloud_project#readme",
+  "dependencies": {
+    "@aws-sdk/client-transcribe": "^3.943.0",
+    "aws-sdk": "^2.1692.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "multer-s3": "^3.0.1",
+    "mysql2": "^3.15.3",
+    "oci-common": "^2.122.0",
+    "oci-objectstorage": "^2.122.0",
+    "oci-sdk": "^2.122.0"
+  }
+}
